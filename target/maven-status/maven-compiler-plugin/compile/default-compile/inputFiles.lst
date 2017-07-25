@@ -1,0 +1,9 @@
+/home/oildexdev/STS/Spring-oauth2-jpa-example-master/src/main/java/com/github/arocketman/entities/Role.java
+/home/oildexdev/STS/Spring-oauth2-jpa-example-master/src/main/java/com/github/arocketman/controllers/HomeController.java
+/home/oildexdev/STS/Spring-oauth2-jpa-example-master/src/main/java/com/github/arocketman/config/CustomUserDetails.java
+/home/oildexdev/STS/Spring-oauth2-jpa-example-master/src/main/java/com/github/arocketman/config/ResourceServerConfig.java
+/home/oildexdev/STS/Spring-oauth2-jpa-example-master/src/main/java/com/github/arocketman/config/AuthorizationServerConfig.java
+/home/oildexdev/STS/Spring-oauth2-jpa-example-master/src/main/java/com/github/arocketman/entities/User.java
+/home/oildexdev/STS/Spring-oauth2-jpa-example-master/src/main/java/com/github/arocketman/repositories/UserRepository.java
+/home/oildexdev/STS/Spring-oauth2-jpa-example-master/src/main/java/com/github/arocketman/services/UserService.java
+/home/oildexdev/STS/Spring-oauth2-jpa-example-master/src/main/java/com/github/arocketman/VanillaApplication.java
