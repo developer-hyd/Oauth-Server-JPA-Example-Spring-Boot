@@ -5,5 +5,7 @@
 /home/oildexdev/STS/Spring-oauth2-jpa-example-master/src/main/java/com/github/arocketman/config/AuthorizationServerConfig.java
 /home/oildexdev/STS/Spring-oauth2-jpa-example-master/src/main/java/com/github/arocketman/entities/User.java
 /home/oildexdev/STS/Spring-oauth2-jpa-example-master/src/main/java/com/github/arocketman/repositories/UserRepository.java
+/home/oildexdev/STS/Spring-oauth2-jpa-example-master/src/main/java/com/github/arocketman/entities/CustomUserDetails.java
+/home/oildexdev/STS/Spring-oauth2-jpa-example-master/src/main/java/com/github/arocketman/services/CustomUserDetailsService.java
 /home/oildexdev/STS/Spring-oauth2-jpa-example-master/src/main/java/com/github/arocketman/services/UserService.java
 /home/oildexdev/STS/Spring-oauth2-jpa-example-master/src/main/java/com/github/arocketman/VanillaApplication.java
