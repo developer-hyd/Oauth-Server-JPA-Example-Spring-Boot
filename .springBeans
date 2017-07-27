@@ -7,7 +7,7 @@
 	</configSuffixes>
 	<enableImports><![CDATA[false]]></enableImports>
 	<configs>
-		<config>java:com.oauth.example.VanillaApplication</config>
+		<config>java:com.oauth.example.test.VanillaApplication</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>
