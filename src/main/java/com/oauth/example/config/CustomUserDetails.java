@@ -1,19 +1,16 @@
 package com.oauth.example.config;
 
+import com.oauth.example.entities.Role;
+import com.oauth.example.entities.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
-
-import com.oauth.example.entities.Role;
-import com.oauth.example.entities.User;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-/**
- * Provides a basic implementation of the UserDetails interface
- */
+
 public class CustomUserDetails implements UserDetails {
 
     private Collection<? extends GrantedAuthority> authorities;
@@ -26,11 +23,6 @@ public class CustomUserDetails implements UserDetails {
         this.authorities = translate(user.getRoles());
     }
 
-    /**
-     * Translates the List<Role> to a List<GrantedAuthority>
-     * @param roles the input list of roles.
-     * @return a list of granted authorities
-     */
     private Collection<? extends GrantedAuthority> translate(List<Role> roles) {
         List<GrantedAuthority> authorities = new ArrayList<>();
         for (Role role : roles) {

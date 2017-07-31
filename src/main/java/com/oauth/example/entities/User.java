@@ -1,14 +1,13 @@
 package com.oauth.example.entities;
 
 import javax.persistence.*;
-
 import java.util.List;
 
 @Entity
 @Table(name = "user")
 public class User {
 
-	@Id
+    @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "user_id")
     private int id;
@@ -34,11 +33,11 @@ public class User {
         this.email = user.getEmail();
         this.roles = user.getRoles();
         this.name = user.getName();
-        this.lastName =user.getLastName();
+        this.lastName = user.getLastName();
         this.id = user.getId();
         this.password = user.getPassword();
     }
-    
+
     public User(String username, String password, List<Role> roles) {
         this.name = username;
         this.password = password;

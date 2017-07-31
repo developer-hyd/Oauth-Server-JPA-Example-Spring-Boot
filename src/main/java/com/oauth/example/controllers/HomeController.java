@@ -9,15 +9,15 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
 
     @GetMapping(value = "/")
-    public String index(){
+    public String index() {
         return "Hello world";
     }
-    
+
     @GetMapping(value = "/private/home")
-    public String index1(){
+    public String index1() {
         return "Hello world";
     }
-    
+
     @PreAuthorize("hasAnyRole('admin')")
     @GetMapping("/private/all")
     public String securedHello() {

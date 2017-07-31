@@ -1,14 +1,10 @@
 package com.oauth.example.repositories;
 
-import java.util.Optional;
-
+import com.oauth.example.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.oauth.example.entities.User;
+import java.util.Optional;
 
-/**
- * User repository for CRUD operations.
- */
-public interface UserRepository extends JpaRepository<User,Long> {
-	Optional<User> findByName(String username);
+public interface UserRepository extends JpaRepository<User, Long> {
+    Optional<User> findByName(String username);
 }
