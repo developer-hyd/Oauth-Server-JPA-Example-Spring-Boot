@@ -1,5 +1,6 @@
 package com.oauth.entities;
 
+
 import javax.persistence.*;
 
 @Entity

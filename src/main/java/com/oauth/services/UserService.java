@@ -25,4 +25,10 @@ public class UserService {
         repo.save(user);
     }
 
+    public User saveUser(User user){
+        user.setPassword(getPasswordEncoder().encode(user.getPassword()));
+        repo.save(user);
+        return user;
+    }
+
 }

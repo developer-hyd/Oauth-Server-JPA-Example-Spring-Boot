@@ -25,7 +25,7 @@ import java.util.Arrays;
 @EnableWebMvc
 @SpringBootApplication
 @ComponentScan(basePackages = {"com"})
-@EntityScan(basePackages = {"com.courseheap.entities", "com.oauth.example.entities"})
+@EntityScan(basePackages = {"com.courseheap.entities", "com.oauth.entities"})
 public class CourseHeapApplication {
 
     @Autowired
