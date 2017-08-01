@@ -1,7 +1,7 @@
-package com.oauth.example.services;
+package com.oauth.services;
 
-import com.oauth.example.entities.User;
-import com.oauth.example.repositories.UserRepository;
+import com.oauth.entities.User;
+import com.oauth.repositories.UserRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

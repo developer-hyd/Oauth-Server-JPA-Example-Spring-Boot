@@ -1,4 +1,4 @@
-package com.oauth.example.test;
+package com.oauth.test;
 //package com.github.arocketman;
 //
 //import org.junit.Test;

@@ -1,7 +1,7 @@
-package com.oauth.example.config;
+package com.oauth.config;
 
-import com.oauth.example.entities.Role;
-import com.oauth.example.entities.User;
+import com.oauth.entities.Role;
+import com.oauth.entities.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

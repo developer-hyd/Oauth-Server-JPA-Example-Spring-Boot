@@ -1,14 +1,15 @@
-package com.oauth.example;
+package com;
 
-import com.oauth.example.config.CustomUserDetails;
-import com.oauth.example.entities.Role;
-import com.oauth.example.entities.User;
-import com.oauth.example.repositories.UserRepository;
-import com.oauth.example.services.UserService;
+import com.oauth.config.CustomUserDetails;
+import com.oauth.entities.Role;
+import com.oauth.entities.User;
+import com.oauth.repositories.UserRepository;
+import com.oauth.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
@@ -21,16 +22,17 @@ import java.util.Arrays;
 
 @Configuration
 @EnableAutoConfiguration
-@ComponentScan
 @EnableWebMvc
 @SpringBootApplication
-public class VanillaApplication {
+@ComponentScan(basePackages = {"com"})
+@EntityScan(basePackages = {"com.courseheap.entities", "com.oauth.example.entities"})
+public class CourseHeapApplication {
 
     @Autowired
     private PasswordEncoder passwordEncoder;
 
     public static void main(String[] args) {
-        SpringApplication.run(VanillaApplication.class, args);
+        SpringApplication.run(CourseHeapApplication.class, args);
     }
 
     @Autowired

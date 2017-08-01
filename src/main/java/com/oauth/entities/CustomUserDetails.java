@@ -1,4 +1,4 @@
-package com.oauth.example.entities;
+package com.oauth.entities;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

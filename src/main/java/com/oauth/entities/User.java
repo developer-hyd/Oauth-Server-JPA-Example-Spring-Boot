@@ -1,6 +1,8 @@
-package com.oauth.example.entities;
+package com.oauth.entities;
 
 import javax.persistence.*;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 @Entity
@@ -36,6 +38,7 @@ public class User {
         this.lastName = user.getLastName();
         this.id = user.getId();
         this.password = user.getPassword();
+        this.roles = Collections.singletonList(new Role("user"));
     }
 
     public User(String username, String password, List<Role> roles) {

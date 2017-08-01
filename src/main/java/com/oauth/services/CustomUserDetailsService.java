@@ -1,4 +1,4 @@
-package com.oauth.example.services;
+package com.oauth.services;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,9 +7,9 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.oauth.example.entities.CustomUserDetails;
-import com.oauth.example.entities.User;
-import com.oauth.example.repositories.UserRepository;
+import com.oauth.entities.CustomUserDetails;
+import com.oauth.entities.User;
+import com.oauth.repositories.UserRepository;
 
 import java.util.Optional;
 

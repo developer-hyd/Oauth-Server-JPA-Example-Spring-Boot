@@ -1,4 +1,4 @@
-package com.oauth.example.entities;
+package com.oauth.entities;
 
 import javax.persistence.*;
 

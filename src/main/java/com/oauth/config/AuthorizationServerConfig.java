@@ -1,6 +1,6 @@
-package com.oauth.example.config;
+package com.oauth.config;
 
-import com.oauth.example.services.CustomUserDetailsService;
+import com.oauth.services.CustomUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,6 +1,6 @@
-package com.oauth.example.repositories;
+package com.oauth.repositories;
 
-import com.oauth.example.entities.User;
+import com.oauth.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
