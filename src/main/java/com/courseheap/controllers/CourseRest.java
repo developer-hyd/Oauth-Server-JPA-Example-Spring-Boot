@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.concurrent.CompletionStage;
 
 @RestController
-public class courseRest {
+public class CourseRest {
 
     @Autowired
     private CourseService courseService;
@@ -28,7 +28,7 @@ public class courseRest {
 
     @GetMapping(value = "/private/getCourses", produces = {"application/json"})
     @ResponseBody
-    public CompletionStage<ResponseEntity<String>> addMerchant() {
+    public CompletionStage<ResponseEntity<String>> getAllCourses() {
         return courseService.getAllCourses();
     }
 
