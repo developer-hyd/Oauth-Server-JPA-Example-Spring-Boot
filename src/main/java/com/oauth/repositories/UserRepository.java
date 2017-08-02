@@ -1,5 +1,9 @@
 package com.oauth.repositories;
 
+/**
+ * Created by ashish.p on 31/7/17.
+ */
+
 import com.oauth.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 

@@ -1,5 +1,9 @@
 package com.oauth.config;
 
+/**
+ * Created by ashish.p on 31/7/17.
+ */
+
 import com.oauth.services.CustomUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

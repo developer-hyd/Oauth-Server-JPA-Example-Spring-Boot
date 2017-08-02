@@ -1,5 +1,9 @@
 package com.oauth.entities;
 
+/**
+ * Created by ashish.p on 31/7/17.
+ */
+
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

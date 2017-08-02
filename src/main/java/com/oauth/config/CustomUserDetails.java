@@ -1,5 +1,9 @@
 package com.oauth.config;
 
+/**
+ * Created by ashish.p on 31/7/17.
+ */
+
 import com.oauth.entities.Role;
 import com.oauth.entities.User;
 import org.springframework.security.core.GrantedAuthority;

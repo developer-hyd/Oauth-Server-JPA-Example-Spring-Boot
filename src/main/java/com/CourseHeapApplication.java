@@ -1,5 +1,9 @@
 package com;
 
+/**
+ * Created by ashish.p on 31/7/17.
+ */
+
 import com.oauth.config.CustomUserDetails;
 import com.oauth.entities.Role;
 import com.oauth.entities.User;

@@ -16,7 +16,7 @@
 *.jar
 *.war
 *.ear
-*.zip
+#*.zip
 *.tar.gz
 *.rar
 
@@ -30,3 +30,9 @@ hs_err_pid*
 *.iml
 out
 gen
+target/classes/META-INF/
+target/classes/com/
+target/classes/schema.sql
+target/generated-sources/
+target/generated-test-sources/
+target/test-classes/
